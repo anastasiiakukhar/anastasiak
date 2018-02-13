@@ -1,0 +1,39 @@
+/*
+Theme Name: Nastya's 2011 Child Theme
+Description:Child theme based on twentyeleven
+Author: AK Inc.
+Version: 1.0
+Template: twentyeleven
+*/
+
+@import url('../twentyeleven/style.css');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Philosopher')
+/*font-family: 'Philosopher', sans-serif;
+font-family: 'Cabin Sketch', cursive;*/
+
+
+.site {
+	background-color: #E2F5EF;
+}
+h1, h2, h3, h4 {
+	font-family: 'Philosopher';
+}
+.site-header{
+	background-color: navy;
+}
+.site-header h1 a{
+	color: #802c5a;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.site-content-wide {
+	width: 100%;
+
+}
+
+
+body{
+	/*color: #B0B !important;*/
+	background-color:#E2F5EF;
+}
